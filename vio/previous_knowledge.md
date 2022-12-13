@@ -22,7 +22,7 @@ $$\begin{align}
 \begin{bmatrix}s_as_b-\mathbf{v}_a^T\mathbf{v}_b&,& s_a\mathbf{v}_b+s_b\mathbf{v}_a+\mathbf{v}_a\times\mathbf{v}_b\end{bmatrix} \notag
 \end{align}$$ 
 * 四元数和角轴的转换关系:  
-某个旋转运动的旋转轴为单位向量 $\mathbf{u}$ ,绕该轴的旋转角度为 $\theta$ ,对应的单位四元数为 $q=\begin{bmatrix} \cos\frac{\theta}{2}\\ \mathbf{u}s\in\frac{\theta}{2} \end{bmatrix}$,当旋转为极小值时,$\Delta\mathbf{q}=\begin{bmatrix}\cos\frac{\delta\theta}{2}\\ \mathbf{u}\sin\frac{\delta\theta}{2}\end{bmatrix}\approx\begin{bmatrix}1\\\mathbf{u}\frac{\delta\theta}{2}\end{bmatrix}=\begin{bmatrix}1\\ \frac{1}{2}\mathbf{{\delta\theta}}\end{bmatrix}$ ,其中 $\delta\mathbf{\theta}$ 的方向表示旋转轴,模长表示旋转角度.  
+某个旋转运动的旋转轴为单位向量 $\mathbf{u}$ ,绕该轴的旋转角度为 $\theta$ ,对应的单位四元数为 $q=\begin{bmatrix} \cos\frac{\theta}{2}\\ \mathbf{u}s\in\frac{\theta}{2} \end{bmatrix}$ ,当旋转为极小值时, $\Delta\mathbf{q}=\begin{bmatrix}\cos\frac{\delta\theta}{2}\\ \mathbf{u}\sin\frac{\delta\theta}{2}\end{bmatrix}\approx\begin{bmatrix}1\\\mathbf{u}\frac{\delta\theta}{2}\end{bmatrix}=\begin{bmatrix}1\\ \frac{1}{2}\mathbf{{\delta\theta}}\end{bmatrix}$ ,其中 $\delta\mathbf{\theta}$ 的方向表示旋转轴,模长表示旋转角度.  
 
 &emsp;
 
